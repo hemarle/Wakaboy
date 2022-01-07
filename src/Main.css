@@ -1,0 +1,15 @@
+.main{
+    --button:linear-gradient(to right, rgb(237, 138, 76) 0px, rgb(234, 72, 92) 100%);
+--button-blue:rgb(45, 223, 209);
+--light-blue:#aab2cd;
+--green:#2add82;
+color: white;
+--light-green:rgb(217, 253, 229);
+--deep-green:#2eb875;
+--blue:#4f5cd1;
+--blue-shadow:#6675ff;
+}
+
+.main h1{
+    font-size: 2.2rem;
+}

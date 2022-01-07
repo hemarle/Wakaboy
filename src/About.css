@@ -1,0 +1,39 @@
+.about{
+    text-align: center;
+background-color: var(--blue);
+padding: 30px 20px 40px;
+}
+.about h2{
+    font-size: 1.2rem;
+}
+.about p{
+    color: white;
+    margin: 20px 0px;
+    font-size: smaller;
+}
+.about a{
+    color: black;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+@media screen and (min-width:768px) {
+    .about{
+        padding:40px 0px 60px;
+        position: relative;
+        overflow: hidden;
+        z-index: 3;
+    }
+    .about::before{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 400px;
+        width: 500px;
+        content: '';
+        background-color: var(--blue-shadow);
+        border-radius: 50%;
+z-index: -1;
+    }
+}
