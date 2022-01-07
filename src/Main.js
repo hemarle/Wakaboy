@@ -18,34 +18,34 @@ function Main() {
     {
       image: carIcon,
       text: "Get a ride",
-      about: "Bolt offers you a ride in minutes",
+      about: "Wakaboy offers you a ride in minutes",
     },
     {
       image: wallet,
       text: "Get a ride",
-      about: "Bolt offers you a ride in minutes",
+      about: "Wakaboy offers you a ride in minutes",
     },
     {
       image: phone2,
       text: "Get a ride",
-      about: "Bolt offers you a ride in minutes",
+      about: "Wakaboy offers you a ride in minutes",
     },
   ];
   const benefits = [
     {
       image: love,
       text: "Get a ride",
-      about: "Bolt offers you a ride in minutes",
+      about: "Wakaboy offers you a ride in minutes",
     },
     {
       image: phone,
       text: "Get a ride",
-      about: "Bolt offers you a ride in minutes",
+      about: "Wakaboy offers you a ride in minutes",
     },
     {
       image: car,
       text: "Get a ride",
-      about: "Bolt offers you a ride in minutes",
+      about: "Wakaboy offers you a ride in minutes",
     },
   ]
 

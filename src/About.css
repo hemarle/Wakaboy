@@ -35,5 +35,16 @@ padding: 30px 20px 40px;
         background-color: var(--blue-shadow);
         border-radius: 50%;
 z-index: -1;
+animation: expand 5s infinite linear;
+transform-origin: (50%,50%);    
+}
+@keyframes expand {
+    50%{
+        width: 600px;
+    }
+    100%{
+             
+            
+    width: 500px;}
     }
 }
